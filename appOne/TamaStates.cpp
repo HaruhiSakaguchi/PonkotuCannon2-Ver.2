@@ -114,7 +114,7 @@ void TamaSeache::Update()
 {
 	Tama* t = static_cast<Tama*>(mOwnerCompo->GetActor());
 #ifdef _DEBUG
-	t->GetCapsule()->segment(t->GetSight()->GetSP(), t->GetSight()->GetEP(), COLOR(255, 0, 0, 128), 100);
+	//t->GetCapsule()->segment(t->GetSight()->GetSP(), t->GetSight()->GetEP(), COLOR(255, 0, 0, 128), 100);
 #endif
 
 	if (++mRotateCnt < 36)
