@@ -8,6 +8,7 @@
 #include "UILog.h"
 #include "UIMiniMap.h"
 #include "UIScroll.h"
+#include <algorithm>
 
 Map::Map(class Game* game)
 	: Actor(game)

@@ -3,6 +3,7 @@
 #include "UIPSideCharacterStatusBase.h"
 #include "Game.h"
 #include <iterator>
+#include <algorithm>
 
 UIManager::UIManager(class Game* game)
 	: Manager(game)

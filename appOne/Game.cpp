@@ -6,6 +6,7 @@
 #include "Pause.h"
 #include "Renderer.h"
 #include "UILoading.h"
+#include <algorithm>
 
 Game::Game()
 	: mGameState(GameState::EGameplay)

@@ -7,6 +7,7 @@
 #include "PlayerHome.h"
 #include "EnemyHome.h"
 #include "CapsuleComponent.h"
+#include <algorithm>
 
 ActorManager::ActorManager(class Game* game)
 	: Manager(game)

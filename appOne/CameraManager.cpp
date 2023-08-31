@@ -7,6 +7,8 @@
 #include "LookPHomeCamera.h"
 #include "FILE_BUFFER.h"
 #include "NAME.h"
+#include <algorithm>
+
 
 CameraManager::CameraManager(Game* game)
 	: Manager(game)
