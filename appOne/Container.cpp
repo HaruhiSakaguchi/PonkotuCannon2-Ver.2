@@ -1,5 +1,6 @@
 #include "Container.h"
 #include "graphic.h"
+#include "sound.h"
 
 void SetAllData(struct Container& ad)
 {
@@ -957,10 +958,9 @@ void loadingSound(struct Container& ad)
 {
 	//button
 	{
-		ad.buttonData.mClickSound = loadSound("Assets\\sound\\Button\\Click.wav");
 		ad.buttonData.mContainsSound = loadSound("Assets\\sound\\Button\\Contains.wav");
+		ad.buttonData.mClickSound = loadSound("Assets\\sound\\Button\\Click.wav");
 		ad.buttonData.mCancellSound = loadSound("Assets\\sound\\Button\\Cancell.wav");
-
 	}
 	//title
 	{

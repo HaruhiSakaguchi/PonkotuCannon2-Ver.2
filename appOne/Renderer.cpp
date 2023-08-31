@@ -14,9 +14,6 @@ Renderer::Renderer(class Game* game)
 	, mTransition(nullptr)
 
 {
-	textSize(30);
-	fill(255, 255, 255);
-	text("NowLoading...", 1800.0f, 1050.0f);
 	Initialize();
 }
 
